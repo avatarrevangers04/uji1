@@ -1,5 +1,5 @@
 <?php
-$url = 'ISI RAW';
+$url = 'https://raw.githubusercontent.com/avatarrevangers04/uji1/refs/heads/main/file.txt';
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
